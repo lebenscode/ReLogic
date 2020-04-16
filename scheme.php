@@ -8,7 +8,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Энциклопедия РЗА</title>
+<title>ReLogic</title>
 <link rel="stylesheet" href="/css/page.css?<?php v(); ?>" />
 <link rel="stylesheet" href="/css/legologic.css?<?php v(); ?>" />
 <link rel="shorcut icon" href="/images/favicon.png" />
