@@ -1,1 +1,289 @@
+body{
+	font-size: 14px;
+    font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif;
+	color:#444;
+	margin:0px;
+	padding:0px;
+	background:#e1e1e1;
+	color:#666666;
+}
 
+a{
+	color:#19478a;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.navbar_wrap{
+	height:50px;
+	background:#000;
+}
+
+.navbar_item{
+	height:30px;
+	line-height:30px;
+	padding:10px 15px;
+	color:#fff;
+	float:left;
+}
+
+.navbar_item:hover{
+	background:#444;
+}
+
+.navbar_blue_item{
+	background:#19478a url('/images/book.png') no-repeat 5px 9px;
+	color:#fff;
+	line-height:50px;
+	font-size:22px;
+	font-family: 'SegoeUI-SemiLight-final','Segoe UI SemiLight','Segoe UI WPC Semilight','Segoe UI',Segoe,Tahoma,Helvetica,Arial,sans-serif;
+	float:left;
+	padding:0px 22px 0px 44px;
+	cursor:pointer;
+}
+
+.navbar_blue_item:hover{
+	background-color: #2b579a;
+}
+
+.navbar_item a, .navbar_blue_item a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+
+.page_box{
+	background:#fff;
+	border:1px solid #ababab;
+	width:1000px;
+	margin:0px auto;
+}
+
+.page_title{
+	margin:0px 5px;
+	padding:10px 20px;
+	border-bottom:1px solid #2b579a;
+}
+
+.page_title_text{
+	font-size:20px;
+	font-weight:normal;
+	color:#2b579a;
+}
+
+.page_content{
+	padding:10px;
+}
+
+.page_foot{
+	margin:0px 5px;
+	padding:10px 20px;
+	border-top:1px solid #2b579a;
+}
+
+.form_wrap{
+	margin-top:20px;
+	width:800px;
+}
+
+.form_content{
+	width:780px;
+	height:160px;
+}
+
+.form_inpart{
+	width:520px;
+}
+
+.form_row{
+	margin-bottom:10px;
+}
+
+.form_label{
+	width:200px;
+	text-align:right;
+	padding:5px;
+	display:inline-block;
+}
+
+input[type="text"], select{
+	border:1px solid #ababab;
+	padding:5px;
+	outline:none;
+	color:#666666;
+}
+
+.form_input{
+	width:280px;
+}
+
+.error_field{
+	border-color:#e83f24 !important;
+}
+
+.form_info{
+	width:260px;
+	height:160px;
+}
+
+.main_but{
+	padding:8px 20px;
+	border:0px;
+	color:#fff;
+	background: #19478a;
+	outline:none;
+	cursor:pointer;
+	outline:none;
+}
+
+.main_but:hover{
+	background-color: #2b579a;
+}
+
+.button{
+	border:1px solid #ababab;
+	background:#f0f0f0;
+	color:#1a1a1a;
+	padding:7px 20px;
+	margin-left:10px;
+	cursor:pointer;
+	outline:none;
+}
+
+.button:hover{
+	background:#e1e1e1;
+}
+
+.form_icon_wrap{
+	padding:0px 5px;
+	margin-bottom:5px;
+}
+
+.form_icon{
+	height:100px;
+	width:250px;
+	background:#c2d5f2;
+}
+
+.form_sub_info{
+	list-style:none;
+	margin:0px;
+	padding:0px 5px;
+}
+
+.form_sub_info li{
+	padding:2px 5px;
+	color:#696969;
+	background:#c2d5f2;
+	margin-bottom:5px;
+}
+
+.top_error{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:20px;
+	background:#ffee80;
+	padding:5px 15px;
+	display:none;
+}
+
+.clear_fix{
+	display:block;
+}
+
+.clear_fix:after{
+	content:'.';
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.works_wrap{
+	margin-top:20px;
+}
+
+.search_wrap{
+	padding:5px 20px;
+	text-align:center;
+}
+
+.search_wrap input{
+	margin-right:10px;
+}
+
+.search_but{
+	margin-left:10px;
+}
+
+.works_null{
+	padding:30px 0px;
+	text-align:center;
+}
+
+.term_wrap{
+	/*padding:15px;*/
+	/*border-radius:6px;*/
+	border: 1px solid #ababab;
+	margin-bottom:10px;
+}
+
+.term_wrap:last-child{
+	margin:0px;
+}
+
+.term_name{
+	font-size:16px;
+	padding:10px 15px;
+}
+
+
+
+.term_name_abbr{
+	font-weight:bold;
+	font-size:20px;
+	color: #2b579a;
+}
+
+.term_icon{
+	width:64px;
+	height:64px;
+	padding:15px;
+	border-radius:50%;
+	background:#2b579a;
+}
+
+.term_voltage{
+	padding:0px 15px;
+}
+
+.term_tags{
+	padding:5px 15px;
+	/*border-top:1px solid #ababab;*/
+	margin-top:10px;
+}
+
+.term_tags a{
+	padding-right:5px;
+}
+
+.diagramm_wrap{
+	margin-top:10px;
+	border: 1px solid #ababab;
+}

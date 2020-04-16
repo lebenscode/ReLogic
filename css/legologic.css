@@ -1,0 +1,51 @@
+.relogic_scheme_wrap{
+    width:100%;
+	margin:5px 0px;
+	border:1px solid #ababab;
+}
+
+.relogic_scheme_content{
+	position:relative;
+}
+
+.relogic_current_layer{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:50;
+}
+
+.relogic_scheme_layout{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+.relogic_scheme_tile{
+	position:absolute;
+	z-index:200;
+	cursor:pointer;
+	 -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.relogic_scheme_tile:hover{
+	background: rgba(194, 213, 242, 0.5);
+	z-index:201;
+}
+
+.relogic_scheme_tile_title{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.relogic_scheme_scene{
+	display:block;	
+}
