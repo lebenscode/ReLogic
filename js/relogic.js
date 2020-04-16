@@ -7,7 +7,7 @@ const RELAY_KQC = 0x04;
 const RELAY_KQT = 0x05;
 const RELAY_KA  = 0x06;
 const RELAY_KV  = 0x07;
-const RELAY_KQ  = 0x08; // РФК
+const RELAY_KQ  = 0x08;
 /* Reserved 0x09 - 0x1F */
   
 //Contact constants 32 - 47 (0x20 - 0x2F)
