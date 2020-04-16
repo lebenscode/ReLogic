@@ -39,7 +39,6 @@ class ReLogicElement{
 
     /**
      *
-     * @type {null}
      * Canvas 2D context.
      */
     ctx = null;
